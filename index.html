@@ -108,6 +108,7 @@
 
     <!-- Hero Section -->
     <section class="min-h-screen flex items-center justify-center pt-24 pb-12 px-6 relative overflow-hidden">
+        <!-- Background Glows -->
         <div class="absolute top-1/4 -left-32 w-[30rem] h-[30rem] bg-cinematic-purple/20 rounded-full blur-[120px] pointer-events-none"></div>
         <div class="absolute bottom-1/4 -right-32 w-[30rem] h-[30rem] bg-cinematic-cyan/15 rounded-full blur-[120px] pointer-events-none"></div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[40rem] h-[40rem] bg-cinematic-violet/10 rounded-full blur-[140px] pointer-events-none"></div>
@@ -130,8 +131,8 @@
                 <a href="#projects" class="px-7 py-3.5 bg-gradient-to-r from-cinematic-cyan via-cinematic-purple to-cinematic-violet text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-cinematic-purple/30 transition-all transform hover:-translate-y-0.5">
                     View Projects
                 </a>
-                <!-- Download Resume Link -->
-                <a href="Himanshi_Rathore_Resume.pdf" download="Himanshi_Rathore_Resume.pdf" class="px-7 py-3.5 glass-card text-white font-semibold rounded-lg hover:bg-void-800 transition-all transform hover:-translate-y-0.5">
+                <!-- Direct PDF Download Link -->
+                <a href="Himanshi_Rathore_Resume.pdf" download="Himanshi_Rathore_Resume.pdf" class="px-7 py-3.5 glass-card text-white font-semibold rounded-lg hover:bg-void-800 transition-all transform hover:-translate-y-0.5 inline-flex items-center">
                     <i class="fa-solid fa-file-arrow-down mr-2 text-cinematic-cyan"></i>Download Resume
                 </a>
                 <a href="#contact" class="px-7 py-3.5 bg-transparent border border-white/10 text-gray-300 font-semibold rounded-lg hover:bg-void-800/50 transition-all">
@@ -159,10 +160,11 @@
             <div class="text-center mb-16 reveal">
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-3">Core Technical <span class="gradient-text">Architectures</span></h2>
                 <div class="w-20 h-1 bg-gradient-to-r from-cinematic-cyan via-cinematic-purple to-cinematic-violet mx-auto rounded-full mb-4"></div>
-                <p class="text-gray-400 text-sm max-w-2xl mx-auto">Bridging theoretical machine learning models and scalable, production-grade AI systems.</p>
+                <p class="text-gray-400 text-sm max-w-2xl mx-auto">Bridging the gap between theoretical machine learning models and scalable, production-grade AI systems.</p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
                 <div class="glass-card p-6 rounded-xl reveal">
                     <div class="w-12 h-12 bg-cinematic-purple/15 rounded-lg flex items-center justify-center text-cinematic-purple mb-4">
                         <i class="fa-solid fa-diagram-project text-xl"></i>
@@ -173,6 +175,7 @@
                     </p>
                 </div>
 
+                <!-- Card 2 -->
                 <div class="glass-card p-6 rounded-xl reveal">
                     <div class="w-12 h-12 bg-cinematic-cyan/15 rounded-lg flex items-center justify-center text-cinematic-cyan mb-4">
                         <i class="fa-solid fa-database text-xl"></i>
@@ -183,6 +186,7 @@
                     </p>
                 </div>
 
+                <!-- Card 3 -->
                 <div class="glass-card p-6 rounded-xl reveal">
                     <div class="w-12 h-12 bg-cinematic-violet/15 rounded-lg flex items-center justify-center text-cinematic-violet mb-4">
                         <i class="fa-solid fa-chart-line text-xl"></i>
@@ -207,21 +211,24 @@
             <div class="grid md:grid-cols-12 gap-10 items-center">
                 <div class="md:col-span-7 space-y-6 text-gray-300 leading-relaxed reveal">
                     <p>
-                        I am an early-career <strong class="text-white">Data Scientist & AI Systems Engineer</strong>. My focus spans building multi-agent workflows, fine-tuning NLP classification models, and developing end-to-end machine learning solutions.
+                        I am an early-career <strong class="text-white">Data Scientist & AI Systems Engineer</strong> with a strong academic background in AI and Data Science. My focus spans building multi-agent workflows, fine-tuning NLP classification models, and developing end-to-end machine learning solutions.
                     </p>
                     <p>
                         Fluent in Python and SQL with a solid foundation in statistical inference, I specialize in taking raw, unstructured web data and transforming it into user-facing web applications deployed on cloud environments.
                     </p>
-                    <div class="grid grid-cols-2 gap-4 pt-4 border-t border-white/10">
-                        <div>
-                            <span class="block text-xs text-gray-400 uppercase tracking-wider">Education</span>
-                            <span class="text-white font-semibold block">M.Sc. in AI & Data Science</span>
-                            <span class="text-gray-300 font-medium block">BCA Data Science</span>
-                            <span class="block text-xs text-cinematic-cyan mt-1">SRM University</span>
-                        </div>
-                        <div>
-                            <span class="block text-xs text-gray-400 uppercase tracking-wider">Location</span>
-                            <span class="text-white font-semibold">India</span>
+                    
+                    <!-- Updated Education Block -->
+                    <div class="space-y-4 pt-4 border-t border-white/10">
+                        <span class="block text-xs text-gray-400 uppercase tracking-wider font-semibold">Education</span>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="glass-card p-4 rounded-lg border border-white/5">
+                                <span class="block text-white font-bold text-sm">M.Sc. in AI & Data Science</span>
+                                <span class="block text-xs text-cinematic-cyan mt-1">Postgraduate Degree</span>
+                            </div>
+                            <div class="glass-card p-4 rounded-lg border border-white/5">
+                                <span class="block text-white font-bold text-sm">BCA Data Science</span>
+                                <span class="block text-xs text-cinematic-purple mt-1">SRM University</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -233,15 +240,15 @@
                     </div>
                     <div class="glass-card p-6 rounded-xl text-center">
                         <div class="text-3xl font-extrabold text-cinematic-purple mb-1">4+</div>
-                        <div class="text-xs text-gray-400 uppercase tracking-wider">Autonomous Agents</div>
+                        <div class="text-xs text-gray-400 uppercase tracking-wider">Autonomous Agents Deployed</div>
                     </div>
                     <div class="glass-card p-6 rounded-xl text-center">
-                        <div class="text-3xl font-extrabold text-cinematic-purple mb-1">35%</div>
-                        <div class="text-xs text-gray-400 uppercase tracking-wider">Effort Reduced</div>
+                        <div class="text-3xl font-extrabold text-cinematic-purple mb-1">10+</div>
+                        <div class="text-xs text-gray-400 uppercase tracking-wider">KPIs Automated</div>
                     </div>
                     <div class="glass-card p-6 rounded-xl text-center">
-                        <div class="text-3xl font-extrabold text-cinematic-cyan mb-1">10+</div>
-                        <div class="text-xs text-gray-400 uppercase tracking-wider">KPIs Dashboards</div>
+                        <div class="text-3xl font-extrabold text-cinematic-cyan mb-1">35%</div>
+                        <div class="text-xs text-gray-400 uppercase tracking-wider">Reporting Effort Reduced</div>
                     </div>
                 </div>
             </div>
@@ -257,6 +264,7 @@
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Category 1 -->
                 <div class="glass-card p-6 rounded-xl reveal">
                     <div class="w-12 h-12 bg-cinematic-cyan/10 rounded-lg flex items-center justify-center text-cinematic-cyan mb-4">
                         <i class="fa-solid fa-robot text-xl"></i>
@@ -270,6 +278,7 @@
                     </ul>
                 </div>
 
+                <!-- Category 2 -->
                 <div class="glass-card p-6 rounded-xl reveal">
                     <div class="w-12 h-12 bg-cinematic-purple/10 rounded-lg flex items-center justify-center text-cinematic-purple mb-4">
                         <i class="fa-solid fa-brain text-xl"></i>
@@ -283,6 +292,7 @@
                     </ul>
                 </div>
 
+                <!-- Category 3 -->
                 <div class="glass-card p-6 rounded-xl reveal">
                     <div class="w-12 h-12 bg-cinematic-violet/10 rounded-lg flex items-center justify-center text-cinematic-violet mb-4">
                         <i class="fa-solid fa-chart-line text-xl"></i>
@@ -296,6 +306,7 @@
                     </ul>
                 </div>
 
+                <!-- Category 4 -->
                 <div class="glass-card p-6 rounded-xl reveal">
                     <div class="w-12 h-12 bg-cinematic-cyan/10 rounded-lg flex items-center justify-center text-cinematic-cyan mb-4">
                         <i class="fa-solid fa-code text-xl"></i>
@@ -318,7 +329,7 @@
             <div class="text-center mb-16 reveal">
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-3">Featured <span class="gradient-text">Projects</span></h2>
                 <div class="w-20 h-1 bg-gradient-to-r from-cinematic-cyan via-cinematic-purple to-cinematic-violet mx-auto rounded-full mb-4"></div>
-                <p class="text-gray-400 text-sm">Direct links to real-world AI repositories, analytics projects, and interactive applications.</p>
+                <p class="text-gray-400 text-sm">Direct links to real-world AI repositories and analytics systems.</p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8">
@@ -367,46 +378,46 @@
                     </a>
                 </div>
 
-                <!-- Project 3: Superstore Sales Analysis -->
+                <!-- Project 3: Superstore Sales Analysis (Added from Resume) -->
                 <div class="glass-card rounded-xl p-6 flex flex-col justify-between reveal">
                     <div>
                         <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold text-white">Superstore Sales Analysis</h3>
+                            <h3 class="text-xl font-bold text-white">Superstore Sales Analytics</h3>
                             <a href="https://github.com/Himanshi252005" target="_blank" class="text-gray-400 hover:text-white"><i class="fa-brands fa-github text-xl"></i></a>
                         </div>
                         <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                            Performed end-to-end data analysis on a 9,994-row retail dataset using Excel, SQLite, Python, and Power BI. Wrote advanced SQL queries (CASE WHEN, window functions) discovering that 18.7% of orders were loss-making and discounts >40% created profit loss.
+                            Performed end-to-end data analysis on a 9,994-row retail dataset using SQLite, Python, and Power BI. Wrote advanced SQL window functions uncovering that 18.7% of orders were loss-making and discounts >40% generated negative profit.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-6">
                             <span class="px-2.5 py-1 bg-void-950 text-cinematic-cyan text-xs rounded-md">Power BI</span>
-                            <span class="px-2.5 py-1 bg-void-950 text-cinematic-cyan text-xs rounded-md">Advanced SQL</span>
+                            <span class="px-2.5 py-1 bg-void-950 text-cinematic-cyan text-xs rounded-md">SQL / SQLite</span>
                             <span class="px-2.5 py-1 bg-void-950 text-cinematic-cyan text-xs rounded-md">DAX</span>
                             <span class="px-2.5 py-1 bg-void-950 text-cinematic-cyan text-xs rounded-md">Python</span>
                         </div>
                     </div>
                     <a href="https://github.com/Himanshi252005" target="_blank" class="w-full text-center py-2.5 bg-void-800 hover:bg-cinematic-purple text-white font-semibold rounded-lg transition-all text-sm flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-github"></i> View Profile Repos
+                        <i class="fa-brands fa-github"></i> View Repository
                     </a>
                 </div>
 
-                <!-- Project 4: Spotify Clone -->
+                <!-- Project 4: Insurance Charges Prediction -->
                 <div class="glass-card rounded-xl p-6 flex flex-col justify-between reveal">
                     <div>
                         <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold text-white">Spotify Application Clone</h3>
-                            <a href="https://github.com/Himanshi252005/Spotify-Clone" target="_blank" class="text-gray-400 hover:text-white"><i class="fa-brands fa-github text-xl"></i></a>
+                            <h3 class="text-xl font-bold text-white">Insurance Charges Prediction</h3>
+                            <a href="https://github.com/Himanshi252005" target="_blank" class="text-gray-400 hover:text-white"><i class="fa-brands fa-github text-xl"></i></a>
                         </div>
                         <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                            Frontend web implementation recreating Spotify's responsive UI/UX interface with interactive play functionality, dynamic song queue layout, and customized modern styling.
+                            End-to-end statistical modeling pipeline utilizing Pearson Correlation and Chi-Square hypothesis testing to statistically validate feature selection, pinpointing smoking status as the primary cost driver.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-6">
-                            <span class="px-2.5 py-1 bg-void-950 text-cinematic-purple text-xs rounded-md">JavaScript</span>
-                            <span class="px-2.5 py-1 bg-void-950 text-cinematic-purple text-xs rounded-md">HTML5 / CSS3</span>
-                            <span class="px-2.5 py-1 bg-void-950 text-cinematic-purple text-xs rounded-md">UI Design</span>
+                            <span class="px-2.5 py-1 bg-void-950 text-cinematic-purple text-xs rounded-md">Python</span>
+                            <span class="px-2.5 py-1 bg-void-950 text-cinematic-purple text-xs rounded-md">Scikit-Learn</span>
+                            <span class="px-2.5 py-1 bg-void-950 text-cinematic-purple text-xs rounded-md">Statistical Testing</span>
                         </div>
                     </div>
-                    <a href="https://github.com/Himanshi252005/Spotify-Clone" target="_blank" class="w-full text-center py-2.5 bg-void-800 hover:bg-cinematic-cyan hover:text-void-950 text-white font-semibold rounded-lg transition-all text-sm flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-github"></i> View Repository
+                    <a href="https://github.com/Himanshi252005" target="_blank" class="w-full text-center py-2.5 bg-void-800 hover:bg-cinematic-cyan hover:text-void-950 text-white font-semibold rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-github"></i> View Profile Repos
                     </a>
                 </div>
 
